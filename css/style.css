@@ -58,6 +58,24 @@ p {
   color: #333;
 }
 
+.btn-light {
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.bg-dark {
+  background-color: #333;
+  color: #fff;
+}
+.bg-light {
+  background-color: #f4f4f4;
+  color: #333;
+}
+.bg-primary {
+  background-color: #333;
+  color: #f7c08a;
+}
+
 /* Navbar */
 #navbar {
   background-color: #333;
@@ -114,4 +132,28 @@ p {
 #showcase .showcase-content p {
   padding-bottom: 20px;
   line-height: 1.7em;
+}
+
+/* Home Info */
+#home-info {
+  height: 400px;
+}
+
+#home-info .info-img {
+  float: left;
+  background: url('../img/hallway.jpeg') no-repeat center center/cover;
+  min-height: 100%;
+  width: 50%;
+}
+#home-info .info-content {
+  float: right;
+  height: 100%;
+  width: 50%;
+  text-align: center;
+  padding: 50px 30px;
+  overflow: hidden;
+}
+
+#home-info .info-content p {
+  padding-bottom: 30px;
 }
