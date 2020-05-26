@@ -1,3 +1,8 @@
+/* Navbar */
+.mobile-container {
+  padding-bottom: 14px;
+}
+
 #navbar .logo {
   float: none;
   text-align: center;
@@ -13,9 +18,20 @@
   border-bottom: #444 solid 1px;
 }
 
+
+/* Showcase */
+#showcase {
+  height: 100%;
+}
+
 /* Home Info */
 #home-info {
   height: 500px;
+}
+
+#showcase .showcase-content {
+  padding: 70px 0 30px 0;
+
 }
 
 #home-info .info-img {
@@ -52,4 +68,10 @@
 
 .l-heading {
   text-align: center;
+}
+
+/* Contact */
+#contact-info .box {
+  border-bottom: #444 solid 1px;
+  padding: 33px 0 20px 0;
 }
